@@ -76,7 +76,7 @@ const challenges = [
     difficulty: "suave",
   },
   {
-    text: "Cierra los ojos y deja que alguien ponga un objeto frente a ti; intenta adivinar qué es tocándolo.",
+    text: "Cierra los ojos y deja que alguien ponga un objeto frente a ti; intenta adivinar qué es tocándolo. si no lo adivinas bebes 3 sorbos",
     difficulty: "suave",
   },
   {
@@ -88,11 +88,7 @@ const challenges = [
     difficulty: "suave",
   },
   {
-    text: "Elige una canción y canta una parte (no importa si cantas mal). Si no cantas, bebe 3 sorbos.",
-    difficulty: "suave",
-  },
-  {
-    text: "Haz como si fueras influencer presentando esta reunión durante 20 segundos.",
+    text: "Elige una canción y canta una parte la persona de tu derecha debe continuarla, si no la canta bebe 3 sorbos.",
     difficulty: "suave",
   },
   {
@@ -104,7 +100,7 @@ const challenges = [
     difficulty: "suave",
   },
   {
-    text: "Inventa un brindis que todos repitan contigo.",
+    text: " Telefono malogrado, di una palabra y la persona a tu derecha debe decir otra palabra relacionada. Sigue hasta que alguien falle. Esa persona bebe 3 sorbos.",
     difficulty: "suave",
   },
   {
@@ -146,11 +142,11 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Muestra al grupo tu última foto de galería (puedes pasar si bebes 4 sorbos).",
+    text: "Muestra al grupo tu última foto de galería en ocultos, si no lo muestras. bebes 3 sorbos.",
     difficulty: "medio",
   },
   {
-    text: "Di quién crees que es el más probable en: llegar tarde, armar drama, perderse, etc. El grupo elige la situación.",
+    text: "Di quién crees que es el más probable en: besarse o ligarse a alguien en una fiesta. si todos estan de acuerdo, esa persona bebe 2 sorbos",
     difficulty: "medio",
   },
   {
@@ -158,7 +154,7 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Deja que alguien revise tus stickers de WhatsApp por 20 segundos. Si no aceptas, bebe 3 sorbos.",
+    text: "Deja que alguien revise tus stickers de WhatsApp por 20 segundos y logra encontrar un sticker porno o de traumado. la persona dueña del celular bebe 3 sorbos, si no encontraste bebes tu",
     difficulty: "medio",
   },
   {
@@ -166,7 +162,7 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Cuenta una anécdota vergonzosa de fiesta. Si no quieres, bebes 4 sorbos.",
+    text: "di en voz alta, si alguien del grupo se comeria a alguien presente , beba 2 sorbos.",
     difficulty: "medio",
   },
   {
@@ -174,11 +170,11 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "El grupo elige una persona y tú tienes que decir qué es lo más atractivo que ves en ella.",
+    text: "El grupo elige una persona y tú tienes que decir qué es lo más atractivo que ves en ella por 10 segundos. estando frente a frente, si la persona que miras se voltea o se va bebe 3 sorbos.",
     difficulty: "medio",
   },
   {
-    text: "Di quién crees que se enamora más rápido de la mesa y por qué.",
+    text: "Di quién crees que se enamora más rápido de la mesa y por qué. si todos estan de acuerdo esa persona bebe 2 sorbos, y si no bebes tu ",
     difficulty: "medio",
   },
   {
@@ -186,7 +182,7 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Si has stalkeado a alguien recientemente, cuenta a quién (sin dar muchos detalles) o bebe 4 sorbos.",
+    text: "Si has stalkeado a alguien recientemente, cuenta a quién  o bebe 4 sorbos.",
     difficulty: "medio",
   },
   {
@@ -194,7 +190,7 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Confiesa algo que nunca le has contado a nadie presente (puede ser algo pequeño). Si no quieres, bebe 5 sorbos.",
+    text: "Confiesa algo que nunca le has contado a nadie presente . Si no quieres, bebe 5 sorbos.",
     difficulty: "medio",
   },
   {
@@ -206,7 +202,7 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Deja que alguien elija un contacto al azar (sin llamar) y tú solo lees el nombre en voz alta. Si no quieres, bebe 3 sorbos.",
+    text: "Deja que alguien elija un contacto al azar  y llamalo,  Si no quieres, bebe 3 sorbos.",
     difficulty: "medio",
   },
   {
