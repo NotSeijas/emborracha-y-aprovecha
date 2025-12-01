@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Emborrachate y aprovecha – Juego de retos picantes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Juego de retos picantes para jugar con amigos. Añade jugadores, saca cartas al azar y deja que la noche decida. Solo para mayores de edad y siempre con consentimiento."
+    />
+    <link rel="icon" type="image/png" href="icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="header">
+        <div class="game-name">Emborrachate y aprovecha</div>
+        <p class="subtitle">
+          Juego de retos para amigos valientes. Toma algo, ríe fuerte y no te
+          rajes.
+        </p>
+        <p class="tagline">by Diego Seijas 🍻</p>
+        <p class="age-warning">No seas cabro y cumple los retos</p>
+      </header>
+
+      <div class="layout">
+        <!-- Paso 1: Panel jugadores -->
+        <section class="panel" id="playersPanel">
+          <div class="panel-content">
+            <h2 class="panel-title"><span class="icon">👥</span>Jugadores</h2>
+
+            <div class="players-form">
+              <input
+                type="text"
+                id="playerNameInput"
+                placeholder="Escribe un nombre y presiona +"
+              />
+              <button class="btn btn-primary" id="addPlayerBtn">+</button>
+            </div>
+
+            <div class="players-list" id="playersList"></div>
+
+            <p class="helper-text">
+              Tip: agrega mínimo 3 personas para que los retos se sientan más
+              caóticos 😈
+            </p>
+
+            <div class="actions-row">
+              <button class="btn btn-secondary" id="startGameBtn" disabled>
+                🎲 Comenzar juego
+              </button>
+              <button class="btn btn-ghost" id="clearPlayersBtn">
+                Limpiar lista
+              </button>
+            </div>
+
+            <p class="status-text" id="statusText">
+              Agrega jugadores para empezar.
+            </p>
+          </div>
+        </section>
+
+        <!-- Paso 2: Niveles + carta (inicialmente oculto) -->
+        <section class="panel hidden" id="cardPanel">
+          <div class="panel-content">
+            <h2 class="panel-title">
+              <span class="icon">🎴</span>Carta del reto
+            </h2>
+
+            <!-- Selector de nivel -->
+            <div class="level-selector">
+              <p class="helper-text">
+                Paso 2: Elige el nivel de locura antes de sacar la carta 😏
+              </p>
+              <div class="level-buttons">
+                <button
+                  class="btn btn-ghost level-btn"
+                  data-mode="suave"
+                  id="btnLevelSuave"
+                >
+                  😇 Suave
+                </button>
+                <button
+                  class="btn btn-ghost level-btn"
+                  data-mode="medio"
+                  id="btnLevelMedio"
+                >
+                  😏 Medio
+                </button>
+                <button
+                  class="btn btn-ghost level-btn"
+                  data-mode="fuerte"
+                  id="btnLevelFuerte"
+                >
+                  🔥 Intenso
+                </button>
+                <button
+                  class="btn btn-ghost level-btn"
+                  data-mode="mix"
+                  id="btnLevelMix"
+                >
+                  🎲 Mezclado
+                </button>
+              </div>
+            </div>
+
+            <!-- Carta -->
+            <div class="card-wrapper" id="cardArea">
+              <!-- Aquí se inserta la carta por JS -->
+              <div class="card-placeholder" id="cardPlaceholder">
+                <div class="empty-state">
+                  <span>✨</span>
+                  Elige un nivel para poder sacar la primera carta.
+                </div>
+              </div>
+            </div>
+
+            <div class="actions-row" style="margin-top: 12px">
+              <button class="btn btn-primary" id="newChallengeBtn" disabled>
+                🔁 Nuevo reto
+              </button>
+              <button class="btn btn-secondary" id="newPlayerBtn" disabled>
+                🔀 Nuevo jugador
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        Juega con responsabilidad. Nadie está obligado a hacer nada que no
+        quiera 💛
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
