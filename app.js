@@ -4,11 +4,7 @@
 const challenges = [
   // Suaves (30)
   {
-    text: "Toma 2 sorbos y cuenta un secreto que nadie de esta mesa sepa.",
-    difficulty: "suave",
-  },
-  {
-    text: "Elige a alguien y dile algo que siempre quisiste decirle (con sinceridad).",
+    text: "Elige a alguien y dile algo que siempre quisiste decirle (con sinceridad), si no lo haces bebes 3 sorbos.",
     difficulty: "suave",
   },
   {
@@ -16,15 +12,11 @@ const challenges = [
     difficulty: "suave",
   },
   {
-    text: "Mira fijamente a la persona de tu derecha por 10 segundos. Si alguno se ríe, ambos beben 2 sorbos.",
+    text: "Mira fijamente a la persona de tu derecha por 10 segundos. frente a frente Si alguno se ríe, ambos beben 2 sorbos.",
     difficulty: "suave",
   },
   {
-    text: "Haz un brindis corto y creativo dedicándolo a alguien de la mesa.",
-    difficulty: "suave",
-  },
-  {
-    text: "Cuenta la anécdota más graciosa que recuerdes con alguien de esta mesa. Si no se ríen, bebes 3 sorbos.",
+    text: "date la vuelta sobre ti mism@ durante 30 segundos, luego parate sobre 1 pie. si te mantienes durante 10 segundos bebe el jugador que tu prefieras, si no lo lograste bebes tu vaso completo.",
     difficulty: "suave",
   },
   {
@@ -68,10 +60,6 @@ const challenges = [
     difficulty: "suave",
   },
   {
-    text: "Di una meta que tengas para este año. Si no quieres decirla, bebe 3 sorbos.",
-    difficulty: "suave",
-  },
-  {
     text: "Elige a alguien para que te invente un reto suave. Si lo rechazas, tú y esa persona beben 2 sorbos.",
     difficulty: "suave",
   },
@@ -92,7 +80,7 @@ const challenges = [
     difficulty: "suave",
   },
   {
-    text: "Di con quién de la mesa te llevarías de viaje y por qué.",
+    text: "si alguien de esta mesa te parece atractivo bebe 3 sorbos ",
     difficulty: "suave",
   },
   {
@@ -104,7 +92,7 @@ const challenges = [
     difficulty: "suave",
   },
   {
-    text: "Deja que el grupo cambie tu fondo de pantalla del celular por 1 minuto (nada ofensivo). Si no aceptas, bebe 3 sorbos.",
+    text: "Deja que el grupo cambie tu fondo de pantalla del celular por 1 minuto . Si no aceptas, bebe 3 sorbos.",
     difficulty: "suave",
   },
   {
@@ -116,7 +104,7 @@ const challenges = [
     difficulty: "suave",
   },
   {
-    text: "Describe la vibra de esta noche en 3 palabras.",
+    text: "Describe la vibra de la persona que tienes en frente ",
     difficulty: "suave",
   },
 
@@ -134,11 +122,11 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Elige a alguien y susúrrale al oído algo que solo esa persona escuche. Si no quieres, ambos beben 3 sorbos.",
+    text: "Elige a alguien y susúrrale al oído, si esa persona sonrie bebe 2 sorbos, si no causaste nada en ella o el . bebes 3 sorbos ",
     difficulty: "medio",
   },
   {
-    text: "Si tienes crush con alguien de la mesa, míralo directamente y bebe 2 sorbos. Si no lo haces, bebe 4 sorbos.",
+    text: "bebe 1 sorbo si estarias en planes con alguien de esta mesa.",
     difficulty: "medio",
   },
   {
@@ -206,7 +194,7 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Elige a alguien y cuenten cada uno una anécdota donde hayan hecho el ridículo.",
+    text: "Elige a alguien y cuenten cada uno una anécdota donde hayan hecho  juntos el ridículo.",
     difficulty: "medio",
   },
   {
@@ -218,7 +206,7 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "El grupo elige una 'verdad incómoda' general y todos responden. Si alguien no quiere, bebe 3 sorbos.",
+    text: "si todos del grupo alguna ves se han besado en una fiesta levanten la mano, la mayoria bebe 3 sorbos",
     difficulty: "medio",
   },
   {
@@ -226,7 +214,7 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Imita tu reacción cuando te llega un mensaje de alguien que te gusta.",
+    text: "describe la persona que te atrae del grupo, menciona al menos 3 cualidades(fisicas o personalidad), si no lo haces, bebe 4 sorbos.",
     difficulty: "medio",
   },
   {
@@ -234,11 +222,11 @@ const challenges = [
     difficulty: "medio",
   },
   {
-    text: "Di quién crees que se besaría con alguien esta noche si se diera la oportunidad (sin obligar a nadie).",
+    text: "Di quién crees que se besaría con alguien esta noche si se diera la oportunidad .",
     difficulty: "medio",
   },
   {
-    text: "Deja que alguien redacte un estado o nota graciosa en tu celular (puede ser solo borrador). Si no aceptas, bebe 4 sorbos.",
+    text: "Deja que alguien redacte un estado o nota graciosa en tu celular . Si no aceptas, bebe 4 sorbos.",
     difficulty: "medio",
   },
 
@@ -252,7 +240,7 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "El grupo elige a alguien y tú debes sentarte muy cerca suyo (pegados) durante 1 minuto. Si no aceptan, ambos beben 3 sorbos.",
+    text: "el jugador de tu derecha y tú deben sentarse juntos, abrazados durante 1 minuto. Si no aceptan, ambos beben 3 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -272,11 +260,11 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "El grupo elige a una persona y tú debes tomarle la mano y mantener contacto visual durante 20 segundos. Si alguno no quiere, ambos beben 3 sorbos.",
+    text: "al jugador que tienes enfrente y tú debes tomarle la mano y mantener contacto visual durante 20 segundos. Si alguno no quiere, ambos beben 3 sorbos.",
     difficulty: "fuerte",
   },
   {
-    text: "Acércate mucho (sin pasar el límite de la otra persona) y dile algo al oído que sea medio picante pero respetuoso. Si no quieren, ambos beben 4 sorbos.",
+    text: "Acércate mucho al jugador de tu izquierda y dile algo al oído que sea medio picante . Si no quieren, ambos beben 4 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -296,7 +284,7 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "El grupo elige una pareja de 'los que más química tienen'. Si alguno no quiere aceptar el título, bebe 3 sorbos.",
+    text: "El grupo elige una pareja de 'los que más química tienen' y deben mantenerse juntos durante 1 ronda. Si alguno no quiere aceptar el título, bebe 3 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -304,11 +292,11 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "Di si alguna vez te ha gustado alguien de este grupo. No des nombres si no quieres, pero si te niegas totalmente, bebe 4 sorbos.",
+    text: "Di si alguna vez te ha gustado o atraido alguien de este grupo. No des nombres si no quieres, pero si te niegas totalmente, bebe 4 sorbos.",
     difficulty: "fuerte",
   },
   {
-    text: "El grupo elige a alguien para que baile pegado contigo durante unos segundos (puede ser suave). Si no aceptan, ambos beben 4 sorbos.",
+    text: "El grupo elige a alguien para que baile pegado contigo durante unos segundos . Si no aceptan, ambos beben 4 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -340,7 +328,7 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "Di si volverías con algún ex. Si no quieres responder, bebe 4 sorbos.",
+    text: "Di si volverías con algún ex y mencionalo. Si no quieres responder, bebe 4 sorbos.",
     difficulty: "fuerte",
   },
   {
