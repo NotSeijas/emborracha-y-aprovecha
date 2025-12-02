@@ -373,6 +373,7 @@ const cardActionsRow = document.querySelector("#cardPanel .actions-row");
 const cardWrapper = document.getElementById("cardArea");
 
 let players = [];
+let remainingPlayers = []; // cola aleatoria de jugadores por ronda
 let currentPlayer = null;
 let currentDifficulty = "medio";
 let selectedMode = null; // suave / medio / fuerte / mix
@@ -380,6 +381,25 @@ let selectedMode = null; // suave / medio / fuerte / mix
 // =========================
 // Funciones auxiliares
 // =========================
+function resetRemainingPlayers() {
+  // Nueva ronda con todos los jugadores
+  remainingPlayers = [...players];
+}
+
+function getNextPlayer() {
+  if (players.length === 0) return null;
+
+  if (remainingPlayers.length === 0) {
+    resetRemainingPlayers();
+  }
+
+  const index = Math.floor(Math.random() * remainingPlayers.length);
+  const player = remainingPlayers[index];
+  remainingPlayers.splice(index, 1); // lo quito para no repetirlo en esta ronda
+
+  return player;
+}
+
 function renderPlayers() {
   playersListEl.innerHTML = "";
   players.forEach((name, index) => {
@@ -404,6 +424,7 @@ function renderPlayers() {
     el.addEventListener("click", () => {
       const index = parseInt(el.getAttribute("data-index"), 10);
       players.splice(index, 1);
+      resetRemainingPlayers();
       renderPlayers();
     });
   });
@@ -414,13 +435,8 @@ function addPlayer() {
   if (!name) return;
   players.push(name);
   playerNameInput.value = "";
+  resetRemainingPlayers();
   renderPlayers();
-}
-
-function getRandomPlayer() {
-  if (players.length === 0) return null;
-  const index = Math.floor(Math.random() * players.length);
-  return players[index];
 }
 
 function getRandomChallenge() {
@@ -463,7 +479,7 @@ function renderCard() {
   }
 
   if (!currentPlayer) {
-    currentPlayer = getRandomPlayer();
+    currentPlayer = getNextPlayer();
   }
   if (!currentPlayer) {
     statusText.textContent = "No hay jugadores. Vuelve atrás y agrega algunos.";
@@ -537,6 +553,9 @@ startGameBtn.addEventListener("click", () => {
     return;
   }
 
+  resetRemainingPlayers();
+  currentPlayer = null;
+
   playersPanel.classList.add("hidden"); // ocultar paso 1
   cardPanel.classList.remove("hidden"); // mostrar panel de juego
 
@@ -546,7 +565,6 @@ startGameBtn.addEventListener("click", () => {
   cardActionsRow.classList.add("hidden");
 
   clearLevelSelection();
-  currentPlayer = null;
   cardArea.innerHTML = "";
   cardArea.appendChild(cardPlaceholder);
   newChallengeBtn.disabled = true;
@@ -573,19 +591,21 @@ levelButtons.forEach((btn) => {
     cardWrapper.classList.remove("hidden");
     cardActionsRow.classList.remove("hidden");
 
-    currentPlayer = getRandomPlayer();
+    currentPlayer = getNextPlayer();
     renderCard();
   });
 });
 
 // Botones de ronda
 newChallengeBtn.addEventListener("click", () => {
+  // Nuevo reto para el MISMO jugador
   renderCard();
   statusText.textContent = `Nuevo reto para ${currentPlayer}.`;
 });
 
 newPlayerBtn.addEventListener("click", () => {
-  currentPlayer = getRandomPlayer();
+  // Nuevo jugador (no repetido hasta que todos hayan salido)
+  currentPlayer = getNextPlayer();
   renderCard();
   statusText.textContent = `Ahora le tocó a ${currentPlayer}.`;
 });
@@ -593,6 +613,7 @@ newPlayerBtn.addEventListener("click", () => {
 // Reiniciar juego (volver a paso 1)
 clearPlayersBtn.addEventListener("click", () => {
   players = [];
+  remainingPlayers = [];
   currentPlayer = null;
   renderPlayers();
 
