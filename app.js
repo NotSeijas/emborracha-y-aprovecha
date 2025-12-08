@@ -239,10 +239,7 @@ const challenges = [
     text: "Si hay vape en la mesa, elige a alguien: uno da una calada y le sopla el humo cerca de la boca al otro. Si no quieren, los dos beben 4 sorbos.",
     difficulty: "fuerte",
   },
-  {
-    text: "el jugador de tu derecha y tú deben sentarse juntos, abrazados durante 1 minuto. Si no aceptan, ambos beben 3 sorbos.",
-    difficulty: "fuerte",
-  },
+
   {
     text: "Elige a alguien para que se siente en tus piernas (o tú en las suyas) durante 20 segundos. Si no quieren, ambos beben 4 sorbos.",
     difficulty: "fuerte",
@@ -256,7 +253,7 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "Elige a alguien para jugar 'verdad o trago': te hace una pregunta. Si no respondes, bebes 3 sorbos.",
+    text: "dale un pico al jugador que le tocó antes que a ti, si no quieres hacerlo bebes 5 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -280,11 +277,11 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "Cuenta la historia más intensa que recuerdes de una salida o fiesta. Si no quieres, bebe 5 sorbos.",
+    text: "bebe 2 sorbos si te besaste a alguien de esta mesa o tuviste sexo.",
     difficulty: "fuerte",
   },
   {
-    text: "El grupo elige una pareja de 'los que más química tienen' y deben mantenerse juntos durante 1 ronda. Si alguno no quiere aceptar el título, bebe 3 sorbos.",
+    text: "El grupo elige una pareja de 'los que más química tienen' y deben mantenerse  de la mano durante 1 ronda. Si alguno no quiere aceptar el título, bebe 3 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -316,7 +313,7 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "Di el lugar más raro donde te gustaría tener una cita. Si no quieres decirlo, bebe 4 sorbos.",
+    text: "para todo el grupo. si todos han pisado un hotel beban 3 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -324,7 +321,7 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "El grupo te puede hacer dos preguntas rápidas sobre tu vida romántica. Por cada pregunta que no respondas, bebe 3 sorbos.",
+    text: "El grupo te puede hacer dos preguntas rápidas sobre tu vida sexual. Por cada pregunta que no respondas, bebe 3 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -332,7 +329,7 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "Elige a alguien y di una cosa que piensas de esa persona pero nunca le habías dicho (con respeto). Si no quieres, bebes 4 sorbos.",
+    text: "Elige a alguien y di una cosa que piensas de esa persona pero nunca le habías dicho . Si no quieres, bebes 4 sorbos.",
     difficulty: "fuerte",
   },
   {
