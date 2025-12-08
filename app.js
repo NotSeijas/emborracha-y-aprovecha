@@ -193,10 +193,7 @@ const challenges = [
     text: "Deja que alguien elija un contacto al azar  y llamalo,  Si no quieres, bebe 3 sorbos.",
     difficulty: "medio",
   },
-  {
-    text: "Elige a alguien y cuenten cada uno una anécdota donde hayan hecho  juntos el ridículo.",
-    difficulty: "medio",
-  },
+
   {
     text: "Actúa una escena dramática de novela con alguien que el grupo elija.",
     difficulty: "medio",
@@ -309,7 +306,11 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "El grupo elige a dos personas para que se sienten juntos muy cerca durante 1 ronda. Si no aceptan, ambos beben 4 sorbos.",
+    text: "al jugador de tu derecha se debe sentar en tus piernas durante 1 minuto si no lo hacen ambos beben 4 sorbos.",
+    difficulty: "fuerte",
+  },
+  {
+    text: "al jugador de tu derecha se debe sentar en tus piernas durante 1 minuto si no lo hacen ambos beben 4 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -317,7 +318,7 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "Imita cómo te comportas cuando alguien que te atrae se te acerca mucho.",
+    text: "para todo el grupo, los que tuvieron sexo  en este mes tuvieron beban 4 sorbos.",
     difficulty: "fuerte",
   },
   {
@@ -342,6 +343,14 @@ const challenges = [
   },
   {
     text: "El grupo elige a dos personas para que se miren muy cerca y digan al mismo tiempo si se besarían en un futuro hipotético. Si no quieren responder, ambos beben 4 sorbos.",
+    difficulty: "fuerte",
+  },
+  {
+    text: "dale un beso de media luna al jugador de tu derecha, si no quieres hacerlo bebes 5 sorbos.",
+    difficulty: "fuerte",
+  },
+  {
+    text: "si hay un vape en la mesa, el jugador de tu izquierda y tú deben dar una calada  y pasarselo con un beso  durante 10 segundos. Si no quieren, ambos beben 7 sorbos.",
     difficulty: "fuerte",
   },
 ];
