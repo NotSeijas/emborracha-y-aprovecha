@@ -365,6 +365,30 @@ const challenges = [
     text: "Si eres hombre y hay mujeres en la mesa, elige a una para que te baile sensualmente durante 20 segundos. si la chica no quiere hacerlo , bebe 5 sorbos.",
     difficulty: "fuerte",
   },
+  {
+    text: "Si tuviste sexo esta semana bebe 3 sorbos",
+    difficulty: "fuerte",
+  },
+  {
+    text: "si has tenido un trío bebe 5 sorbos",
+    difficulty: "fuerte",
+  },
+  {
+    text: "para el grupo, los que han tenido sexo en un lugar público beban 4 sorbos",
+    difficulty: "fuerte",
+  },
+  {
+    text: "al jugador mas borracho hacerlo acabar su vaso completo",
+    difficulty: "fuerte",
+  },
+  {
+    text: "besa al jugador de tu derecha durante 5 segundos, si no quieres hacerlo bebes 5 sorbos.",
+    difficulty: "fuerte",
+  },
+  {
+    text: "al jugador mas chato (cuentan las mujeres) darle un pico cada uno de los jugadores presentes al rededor del rostro, ustedes pueden elegir donde se lo dan.",
+    difficulty: "fuerte",
+  },
 ];
 
 // =========================
