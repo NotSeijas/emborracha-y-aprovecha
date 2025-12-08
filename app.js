@@ -353,6 +353,18 @@ const challenges = [
     text: "si hay un vape en la mesa, el jugador de tu izquierda y tú deben dar una calada  y pasarselo con un beso  durante 10 segundos. Si no quieren, ambos beben 7 sorbos.",
     difficulty: "fuerte",
   },
+  {
+    text: "el jugador de tu izquierda y tu deben cambiarse las medias o calcetas durante el resto del juego. Si no quieren, ambos beben 5 sorbos.",
+    difficulty: "fuerte",
+  },
+  {
+    text: "Si eres mujeres y hay hombres en la mesa, elige a uno para que te lama el cuello Si no quieres , bebe 5 sorbos.",
+    difficulty: "fuerte",
+  },
+  {
+    text: "Si eres hombre y hay mujeres en la mesa, elige a una para que te baile sensualmente durante 20 segundos. si la chica no quiere hacerlo , bebe 5 sorbos.",
+    difficulty: "fuerte",
+  },
 ];
 
 // =========================
