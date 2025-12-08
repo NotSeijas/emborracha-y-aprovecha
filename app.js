@@ -318,7 +318,7 @@ const challenges = [
     difficulty: "fuerte",
   },
   {
-    text: "para todo el grupo, los que tuvieron sexo  en este mes tuvieron beban 4 sorbos.",
+    text: "para todo el grupo, los que tuvieron sexo  en este mes beban 4 sorbos.",
     difficulty: "fuerte",
   },
   {
